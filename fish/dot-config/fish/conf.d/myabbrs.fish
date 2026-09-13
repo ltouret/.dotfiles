@@ -1,0 +1,4 @@
+abbr -a -- htop 'htop -t'
+abbr -a -- ll 'ls -lha'
+abbr -a -- upt 'uptime'
+abbr -a -- fr 'free --mega'
