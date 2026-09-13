@@ -1,6 +1,15 @@
-Minimal configs using GNU Stow.
+# Dotfiles
 
+Managed using [GNU Stow](https://www.gnu.org/software/stow/).
+
+## Setup
+
+```fish
 cd ~/.dotfiles
 stow --dotfiles */
+```
 
-For fish local files add them to conf.d/local.fish
+## Machine-Specific Fish Config
+
+Add local environment variables or host-specific overrides to:
+`~/.dotfiles/fish/dot-config/fish/conf.d/local.fish`
